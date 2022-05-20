@@ -1,5 +1,22 @@
 @import url(https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900);
 
+* {
+  font-weight: 200;
+}
+html,
+body {
+  background-color: #1a1a1a;
+  color: white;
+}
+.Loader {
+  animation: 350ms Loader linear infinite;
+}
+@keyframes Loader {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
 @tailwind base;
 @tailwind utilities;
 @tailwind components;
