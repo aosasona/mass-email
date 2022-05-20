@@ -91,6 +91,7 @@ export default async function handler(
       }
       header img {
         height: 1.75rem !important;
+        object-fit: contain !important;
       }
       .HeaderText {
         width: 85% !important;
@@ -109,6 +110,9 @@ export default async function handler(
         line-height: 1.75 !important;
         font-weight: 400 !important;
         font-size: 12px !important;
+      }
+      .Content a {
+          color : orange !important;
       }
       .Signature {
         font-size: 0.85rem !important;
@@ -176,7 +180,7 @@ export default async function handler(
           <main class="main">
             <header>
               <img
-                src="https://res.cloudinary.com/breege-tech/image/upload/v1653004497/Logo_bewtro.svg"
+                src="https://res.cloudinary.com/breege-tech/image/upload/v1653021692/Icons/Logo_siqxnr.png"
                 alt="Logo"
               />
             </header>
@@ -202,15 +206,15 @@ export default async function handler(
               <h4>The all-in-one social media for Techies.</h4>
               <div class="Links flex justify-evenly">
                 <a href="https://twitter.com/frikax">
-                <img src="https://res.cloudinary.com/breege-tech/image/upload/v1653018283/Icons/Twitter_nnz5wk.svg" alt="Twitter_icon" class="LinkImage" />
+                <img src="https://res.cloudinary.com/breege-tech/image/upload/v1653021692/Icons/Twitter_ugzbo7.png" alt="Twitter_icon" class="LinkImage" />
                 </a>
                 <!-- <a href="https://instagram.com/_frikax"
                   ><img src="https://res.cloudinary.com/breege-tech/image/upload/v1653018283/Icons/Instagram_hobvfx.svg" alt="Instagram_icon" class="LinkImage" /></a> -->
                 <a href="https://facebook.com/frikax"
-                  ><img src="https://res.cloudinary.com/breege-tech/image/upload/v1653018283/Icons/Facebook_kz6zrl.svg" alt="FB_icon" class="LinkImage" /></a>
+                  ><img src="https://res.cloudinary.com/breege-tech/image/upload/v1653021692/Icons/Facebook_m8hg2i.png" alt="FB_icon" class="LinkImage" /></a>
               
               <a href="https://www.linkedin.com/company/frikax"
-                  ><img src="https://res.cloudinary.com/breege-tech/image/upload/v1653018283/Icons/LinkedIn_niran3.svg" alt="LinkedIn_icon" class="LinkImage" /></a>
+                  ><img src="https://res.cloudinary.com/breege-tech/image/upload/v1653021692/Icons/LinkedIn_fizmhk.png" alt="LinkedIn_icon" class="LinkImage" /></a>
               </div>
       
               <h5>

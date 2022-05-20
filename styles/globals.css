@@ -578,6 +578,26 @@ Ensure the default browser behavior of the `hidden` attribute.
   max-height: 75vh;
 }
 
+.max-h-max{
+  max-height: -webkit-max-content;
+  max-height: -moz-max-content;
+  max-height: max-content;
+}
+
+.max-h-min{
+  max-height: -webkit-min-content;
+  max-height: -moz-min-content;
+  max-height: min-content;
+}
+
+.max-h-\[60vh\]{
+  max-height: 60vh;
+}
+
+.max-h-\[65vh\]{
+  max-height: 65vh;
+}
+
 .w-\[95\%\]{
   width: 95%;
 }

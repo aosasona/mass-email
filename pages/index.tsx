@@ -118,7 +118,7 @@ const Home: NextPage<null> = () => {
           <div className="h-[75vh] max-h-[75vh] bg-neutral-800 px-3 lg:px-6 py-5">
             <h1 className="font-thin text-3xl lg:text-4xl">Emails</h1>
 
-            <div className="mt-3 overflow-y-scroll">
+            <div className="mt-3 max-h-[65vh] overflow-y-scroll">
               {Emails.length > 0 ? (
                 <>
                   {Emails.map((person, index) => (
